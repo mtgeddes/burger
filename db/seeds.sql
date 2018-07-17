@@ -1,6 +1,6 @@
 INSERT INTO 
-burgers (burger_name, devoured) 
+burgers (burger_name) 
 VALUES 
-('Node burger', true), 
-('JavaScript burger', false),
-('HTML burger', false);
+('Node burger'), 
+('JavaScript burger'),
+('HTML burger');

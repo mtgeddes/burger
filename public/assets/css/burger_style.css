@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.burger-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
