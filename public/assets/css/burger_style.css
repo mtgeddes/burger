@@ -1,3 +1,14 @@
+body {
+    background: orange;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .center {
     display: flex;
     align-items: center;
@@ -7,6 +18,62 @@
 
 .burger-status {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+#burger-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.burgers-to-eat {
+    padding: 20px;
+    min-width: 200px;
+    font-family: 'Asap', sans-serif;
+}
+
+.burgers-eaten {
+    padding: 20px;
+    min-width: 200px;
+    font-family: 'Asap', sans-serif;
+}
+
+#newBurger {
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Asap', sans-serif;
+}
+
+.devour {
+    padding: 5px;
+    background: orangered;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.submit {
+    padding: 5px;
+    background: orangered;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+}
+
+.submit:hover {
+    background: rgb(168, 45, 0);
+}
+
+.submit:active {
+    background: rgb(168, 45, 0);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }

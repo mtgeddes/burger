@@ -25,7 +25,7 @@ $(".submit").on("click", function(event) {
   // Make sure to preventDefault on a submit event.
   event.preventDefault();
   if ($('#newBurger').val() == '') {
-    $('#newBurger').attr('placeholder', 'Please provide a burger name');
+    $('#newBurger').attr('placeholder', 'Blank Burger?');
   } else {
     let newBurger = {
       burger_name: $("#newBurger").val().trim(),

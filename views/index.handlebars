@@ -6,30 +6,29 @@ Create a button in index.handlebars that will submit the user input into the dat
 
 -->
 <div class='center'>
-  <h1>burgers!</h1>
 
-  
+  <img src="/assets/img/food.png" alt="burger" id='burger-img'>
 
   <div class='burger-status'>
 
-    <div>
-      <h2>Burgers to eat!</h2>
+    <div class='burgers-to-eat'>
+      <h2>Eat</h2>
       <ul>
         {{#each burgers}}
           {{#unless devoured}}
             <li>
                 {{burger_name}}
-                <button class="devour" data-id="{{id}}" data-devoured="{{devoured}}">
+                <div class="devour" data-id="{{id}}" data-devoured="{{devoured}}">
                 Devour It!
-                </button>
+                </div>
             </li>
           {{/unless}}
         {{/each}}
       </ul>
     </div>
 
-    <div id="devoured">  
-      <h2>Eaten burgers.</h2>
+    <div class='burgers-eaten' id="devoured">  
+      <h2>Eaten</h2>
       <ul>
         {{#each burgers}}
           {{#if devoured}}
@@ -45,14 +44,14 @@ Create a button in index.handlebars that will submit the user input into the dat
 
   </div>
 
-  <h2>Add a burger</h2>
+  <h2>Add'a Burger!</h2>
 
-  <form>
+  <form class='center'>
 
     <div class="form-group">
-      <input placeholder="Type out a burger you would like to add" type="text" id="newBurger" burger="burger">
+      <input placeholder="Type here" type="text" id="newBurger" burger="burger">
     </div>
 
-    <button type="submit" class="submit">Add burger</button>
+    <div class="submit">Add!</div>
   </form>
 </div>
