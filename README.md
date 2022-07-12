@@ -1,3 +1,5 @@
+7/12/2012 -- This is not maintained. Deprecated items have caused demo link to no longer work.
+
 # Burger
 Following the MVC design pattern, this app utilizes MySQL, Node, Express, Handlebars and a homemade ORM.
 
@@ -9,4 +11,4 @@ Following the MVC design pattern, this app utilizes MySQL, Node, Express, Handle
 
 
 ## <a name="live"></a>Link to live
-[MySQL](https://burger-mg.herokuapp.com/)
+[MySQL](https://burger-mg.herokuapp.com/) 
